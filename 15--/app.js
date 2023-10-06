@@ -1,6 +1,7 @@
 function litres(time) {
     let numLitres = time*0.5
     return Math.floor(numLitres)
+    
   }
 
 //   Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.

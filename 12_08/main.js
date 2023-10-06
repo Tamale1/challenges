@@ -1,5 +1,5 @@
 function positiveSum(arr) {
-    var total = 0;    
+    let total = 0;    
     for (let i = 0; i < arr.length; i++) {    
       if (arr[i] > 0) {                   
         total += arr[i];                  
@@ -16,6 +16,6 @@ function positiveSum(arr) {
 
 
 // how to pass a string to an integer 
-// const stringToNumber = function(str){
-//     return parseInt(str)
-//     }
+const stringToNumber = function(str){
+    return parseInt(str)
+    }
