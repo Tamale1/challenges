@@ -22,3 +22,16 @@ function reverseLetters(str) {
   let input = "a-bC-dEf=ghIj!!";
   reverseLetters(input);
   // console.log(result);
+
+
+//if name starts with cap 'R' plays else does not paly
+  function areYouPlayingBanjo(name) {
+    // Implement me
+    if(name[0].toLowerCase()=='r'){
+     return name + " plays banjo" 
+       
+    }else {
+  return name + " does not play banjo"
+    }
+   return name
+  }
